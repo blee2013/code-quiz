@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Add your title -->
+        
+        <title>The Best Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./script.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Display and link for high scores -->
+        <div class="score"> <a href="Insert link to high scores here">View High Scores</a></div>
+        
+        <div id="display">Time:<span id="time"></span></div>
+        
+        <!-- Div containing our stopwatch controls -->
+        <!-- <div id="buttons">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+            <button id="lap">Lap</button>
+        </div>
+        
+        <div id="laps"></div> -->
+
+        
+       <!-- Timer -->
+    <section>
+    <div class= "timer" id= "timer">Time Left: <span id= "countdowntimer">0</span></p>
+    </div>  
+
+</section>
+    <!-- Start Page -->
+    <section  id= "start-page" class="start">
+        <div id = "start-quiz-screen">
+            <h1>The Best Quiz</h1>
+            <div class = "page-text">
+                <div style="font-style: italic; font-size:larger">
+            <p> Welcome to The Best Quiz! 
+                </div>
+            <br>
+                You have 1 minute to take the quiz.
+                <br>
+                You will have 10 seconds to answer each question. 
+                <br>
+                If you answer a question incorrectly, 10 seconds will be deducted from the timer. 
+            <br>
+            <br>
+            Good Luck!
+            </p>
+            </div>
+            <!-- start button  -->
+            <button id="start" class="start-button" onclick="startQuiz()"> Start The Best Quiz</button>
+        </div>
+        
+    </section>
+  
+
+ <!-- questions  -->
+        <h2 id= "questions" class= "hide-page"></h2>
+        <div>
+            <p id= "options" class= "options"></p>
+        </div>
+
+<!-- end page -->
+    <section  id= "end-page" class= "hide-page">
+        <h2 id="end-page">The Best Quiz has Ended!</h2>
+        <p>Your Final Score: <span id="score"></span></p>
+        <P> Enter Initials: 
+            <input type="text" id= "initials" />
+        
+            <!-- submit button  -->
+            <button id="start-button" class="Submit">Submit</button>
+
+            <!-- BUTTONS -->
+            <!-- high school final score-->
+            <button id="highscore-button" class="high-score">High Score</button>
+            
+            
+            <!--try again button -->
+            <button id="tryagain-button" class="try-again">Try Again</button>
+        </p>
+    </section>
+
+
+
+        
+        <!-- Display Right/Wrong -->
+        <div id= "display-result" class= "hide-display"></div>
+
+
+
+
+        
+        <script src="./quiz.js" ></script>
+        <script src="./questions.js"></script>
+    </body>
+</html>
