@@ -14,6 +14,7 @@
     
 }
 
+
 .page-text {
     color: #212121;
     border: 2px solid var(--tertiary);
@@ -25,12 +26,27 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+button {
+  display: block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: darkcyan;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+    
+
+}
+
 .start-button {
     background-color: var(--primary);
     color: #FFF;
     border-radius: 7px;
     padding: 10px;
     font-weight: bold;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 
 }
 
@@ -41,14 +57,10 @@
     text-decoration: underline;
 }
 
-.timer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: right;
-    color: red;
-    border-radius: 10px;
+.hide-page {
+  display: none;
 }
+
 
 .h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,18 +74,18 @@
     font-weight: bolder;
     font-size: 15px;
 }
-.options {
+/* .options button {
     background-color: var (var(--primary));
     color: var(--tertiary);
-}
+    display: block;
+} */
 
-.options:hover {
-    background-color: plum;
-    color: #000;
+.button:hover {
+    color: purple;
     font-weight: bolder;
 }
 
-.right-wrong {
+.answer {
     color:red;
     font-weight: bold;
     font-style: italic;
@@ -81,11 +93,20 @@
     text-align: center;
 }
 
+.try-again { 
+    color: Pink;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+#timer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+    color: red;
+    border-radius: 10px;
+}
 
-/* heading 1  */
-/* heading 2 */
-/* body/ feedback  */
-/* *optional hover button */
-/* button display- all the buttons  */
-/* timer  */
-/* high score */
+
+
