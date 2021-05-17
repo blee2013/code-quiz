@@ -1,42 +1,33 @@
-# 04 Web APIs: Code Quiz
 
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+## Quiz
 
-## User Story
+This application is a one minute quiz that you click through answers until the end. If you answer incorrectly, time is deducted. 
 
-```
-AS A coding bootcamp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+### Table of Contents
+* [Application](#application)
+* [Technology Used](#technology-used)
+* [Contact Information](#contact-information)
 
-## Acceptance Criteria
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+### Application
 
-The following animation demonstrates the application functionality:
+This application is The Best Quiz Ever. "You have 1 minute to take the quiz. You will have 10 seconds to answer each question. If you answer a question incorrectly, 10 seconds will be deducted from the timer."
 
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
+Deployed via Heroku https://blee2013.github.io/code-quiz/
 
-### Review
+![Preview ](/assets/css/quiz-image.png)
 
-You are required to submit the following for review:
+### Technology Used
 
-* The URL of the functional, deployed application.
+* Javascript
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+### Contact Information
+
+Brittany's contacts:
+
+Email: (BLee@BrittanyLeeConsulting.com)
+
+Github: (https://github.com/blee2013)
+
+LinkedIn: (https://www.linkedin.com/in//brittany-lee-6142121b8/)
